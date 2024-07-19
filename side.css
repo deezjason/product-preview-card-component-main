@@ -1,0 +1,84 @@
+
+body{
+    margin: 0px;
+    padding-left: 350px;
+    background-color: beige;
+  }
+  .all{
+    display: flex;
+    width: 550px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+   
+  }
+  .words{
+    display:flex;
+    flex-direction: column;
+    margin-left: 35px; 
+    width: 500px;
+    height: 500px;
+  }
+  
+  h4{
+    color: grey;
+    letter-spacing: 6px;
+    margin-bottom: 0px;
+    
+    font-size: 15px;
+  }
+  img{
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+  }
+  .price {
+   color: rgb(46,139,87); 
+   font-size: 40px;
+   font-family:sans-serif
+  }
+  p{
+      color: grey;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+  }
+  image{
+    float: left;
+  }
+  button{
+  
+    width: 238px;
+    height: 45px;
+      border-radius: 15px;
+    background-color: rgb(46,139,87);
+    border: none;
+  }
+  svg{
+    transform: translate(-50px,13px);
+  }
+  button p{
+    display: flex;
+    flex-direction: column;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  transform: translate(10px,-30px);
+
+  }
+  .pay{
+    display: flex;
+    flex-direction: row;
+  }
+  .pay p{
+  text-decoration: line-through;
+  font-size: 20px;
+  margin-left: 30px;
+  transform:translate(-20px,20px)
+  }
+  
+  
